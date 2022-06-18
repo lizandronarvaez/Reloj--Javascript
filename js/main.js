@@ -34,7 +34,7 @@ setInterval(function () {
         formatoHora.textContent = "AM"
         saludoReloj.textContent = "Que tengas buen dia!"
     } 
-    if (hora >= 12 && minutos >= 1 && hora < 21) {
+    if (hora >= 12 && minutos >= 1 && hora <= 21) {
         saludoReloj.textContent = "Que tengas buena tarde!"
     } 
     if (hora <= 5 && minutos >= 1) {
