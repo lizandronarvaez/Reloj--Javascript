@@ -34,15 +34,16 @@ setInterval(function () {
         formatoHora.textContent = "AM"
         saludoReloj.textContent = "Que tengas buen dia!"
     } 
-    if (hora >= 12 && minutos >= 1 && hora <= 21) {
+    if (hora >= 12 && minutos >= 1 && hora < 21) {
         saludoReloj.textContent = "Que tengas buena tarde!"
     } 
-    if (hora <= 4 ) {
+    if (hora > 21) {
         saludoReloj.textContent = "Que tengas buenas noches..."
     }
 
     // Zona para asignar valores al document
     muestraHora.textContent = `${hora}:${minutos}:${segundos}`;
+
     muestraFecha.textContent = semana[diaSemana] + " " + dia + " de " + meses[mes] + " del " + año;
 }, 1000);
 
