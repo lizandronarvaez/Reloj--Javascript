@@ -17,14 +17,17 @@ body {
 body h1{
     font-size: 5em;
     text-align: center;
-    transform: translateY(430px);
+    transform: translateY(428px);
     font-style: italic;
-    text-shadow: 5px -5px 15px;
+}
+
+.h1-text{
+    color: yellow;
 }
 
 div {
     margin-left: 450px;
-    margin-top: 200px;
+    margin-top: 220px;
     transform: translateY(-200px);
     text-shadow: 0 0 15px  white;
 }
