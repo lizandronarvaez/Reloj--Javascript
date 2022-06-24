@@ -1,5 +1,5 @@
+/*  Fuentes de letras*/
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ blockquote {
 #formato {
     font-size: 1px;
 }
-
+/* Media Queries Dispositivos de ancho maximo 770px */
 @media (max-width:770px) {
     body{
         background-repeat: no-repeat;
@@ -105,7 +105,7 @@ blockquote {
     }
 
 }
-
+/* Dispositivos moviles */
 @media(max-width:420px) {
 
     body{
