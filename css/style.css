@@ -121,7 +121,7 @@ blockquote {
     font-size: 30px;
     }
     div {
-        transform: translateY(-60px);
+        transform: translateY(-100px);
         margin-left: -30px;
     }
     #tiempo,#fecha{
