@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+:root {
+    --colorText: #fff
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnJpY2tzJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-position: 250px -50px;
+    width: auto;
+    height: auto;
+}
+
+body h5 {
+    color: var(--colorText);
+    font-size: 5em;
+    text-align: center;
+    font-style: italic;
+}
+
+.h1-text {
+    color: yellow;
+}
+
+div {
+    margin-top: 180px;
+    width: 650px;
+    margin-left: 450px;
+
+}
+
+p:nth-last-child(2) {
+    margin: 40px 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px;
+}
+
+#tiempo,
+#fecha {
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px 2px black;
+    color: #fff;
+}
+
+#tiempo {
+    padding-bottom: 40px;
+    font-size: 120px;
+    height: 200px;
+}
+
+#saludo {
+    transform: translateY(-120px);
+    font-size: 25px;
+    font-style: italic;
+    color: var(--colorText);
+}
+
+footer {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: var(--colorText);
+}
+
+
+/* Media queries */
+
+@media (max-width:770px) {
+
+    body {
+        background-position: -150px -75px;
+        background-size: cover;
+    }
+
+    body h2 {
+        font-size: 50px;
+    }
+
+    div {
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+}
+
+@media(max-width:420px) {
+
+    body {
+        background-size: cover;
+        background-position: -5%;
+    }
+
+    body h5 {
+        font-size: 2.3em;
+    }
+
+    div {
+        width: 80%;
+    }
+
+    #tiempo {
+        padding-top: 1%;
+        font-size: 4em;
+    }
+
+    #fecha {
+        font-size: 1.45em;
+    }
+
+    #saludo {
+        font-size: 1.3em;
+    }
+
+    footer {
+        padding-left: 22%;
+    }
+
+
+}
