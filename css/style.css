@@ -31,7 +31,6 @@ div {
     margin-top: 180px;
     width: 650px;
     margin-left: 450px;
-
 }
 
 p:nth-last-child(2) {
@@ -72,7 +71,6 @@ footer {
     color: var(--colorText);
 }
 
-
 /* Media queries */
 
 @media (max-width:770px) {
@@ -94,7 +92,6 @@ footer {
     footer {
         margin-top: 100px;
     }
-
 }
 
 @media(max-width:420px) {
@@ -128,6 +125,4 @@ footer {
     footer {
         padding-left: 22%;
     }
-
-
 }
