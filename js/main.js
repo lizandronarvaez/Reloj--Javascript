@@ -31,7 +31,7 @@ setInterval(() => {
      * Devolveremos un saludo segun la hora
      */
     if (hora >= 5 && minutos >= 1 && hora < 12) saludoReloj.textContent = "Que tengas buen dia!"
-    if (hora >= 12 && minutos >= 1 && hora < 21) saludoReloj.textContent = "Que tengas buena tarde!"
+    if (hora >= 12 && minutos >= 0 && hora < 21) saludoReloj.textContent = "Que tengas buena tarde!"
     if (hora > 21 && minutos >= 1 || hora < 5) saludoReloj.textContent = "Que tengas buenas noches..."
     /**
      * Aqui escribimos todo lo que se representara en el DOM
