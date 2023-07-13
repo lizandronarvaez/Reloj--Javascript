@@ -5,7 +5,6 @@ let saludoReloj = document.getElementById("saludo");
  * Funcion SetInterval
  */
 setInterval(() => {
-    // Zona de las horas
     const tiempo = new Date();
     let hora = tiempo.getHours();
     let minutos = tiempo.getMinutes();
